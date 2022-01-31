@@ -1,0 +1,40 @@
+<article class="VideoContenedor">
+  <div class="overlay"></div>
+  <video
+    id="VideoResponsive"
+    playsinline="playsinline"
+    autoplay
+    muted
+    loop
+    src="{{ respuesta.video }}"
+  ></video>
+  <div class="container h-100">
+    <div class="d-flex text-center h-100">
+      <div class="my-auto w-100 text-white">
+        <h1 class="display-3">{{ respuesta.phrase }}</h1>
+      </div>
+    </div>
+  </div>
+</article>
+
+<article class="container mt-5">
+
+  <p class="titulo-art mt-3">{{ respuesta.title }}</p>
+  <div class="full-onu">ONU DESARROLLO</div>
+  <div class="full-line"></div>
+  <div class="desText mt-5">
+    <img class="img-fullart" src="{{ respuesta.img2 }}" alt="" />
+
+    <div class="contenido-art">
+
+      <p class="full-des-pho my-2">
+        {{ respuesta.sub }}
+      </p>
+      <p class="full-artp">
+        {{ respuesta.content }}
+      </p>
+
+    </div>
+
+  </div>
+</article>

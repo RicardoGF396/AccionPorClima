@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  margin: 1rem auto;
+  max-width: 1100px;
+}
+
+.title_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.title_content{
+  width: 1024px;
+}
+
+.line{
+  background-color: #9FBAAB;
+  height: 2px;
+  width: 200px;
+}
+
+.title{
+  color: #005148;
+}
+
+/* GRID */
+
+/* .container_grid{
+  display: grid;
+  grid-template-columns: 1;
+} */
+
+.persona_content{
+  background-color: #005148;
+  border: 1px solid #9FBAAB;
+  width: 305px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.img_container{
+  margin: auto 1rem;
+}
+
+.nombre_grid{
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.ocupacion,
+.correo{
+  font-size: 8px;
+  font-weight: bold;
+  color: #9FBAAB;
+}
+
+@media screen and (min-width: 768px){
+
+  /* Cambio a 5 columnas */
+  /* .container_grid{
+    grid-template-columns: repeat(5,200px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+
+  .persona_content{
+    width: 205px;
+    height: 150px;
+  }
+
+}

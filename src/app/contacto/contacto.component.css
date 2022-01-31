@@ -1,0 +1,215 @@
+/* QuickSand */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+:root{
+    --color_principal: #005148;
+    --color_secundario: #48773E;
+    --fondo: #FDF7E3;
+    --blanco: #ffff;
+  }
+
+hr{
+    position: relative;
+    left: 5%;
+    background:#9FBAAB;
+    height: 6px !important;
+    width: 90%;
+}
+h2{
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    color: #005148 !important;
+  }
+  #Tit1{
+    margin-left: .4rem;
+  }
+table{
+    margin-left: .4rem;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal !important;
+    color: #005148 !important;
+  }
+  main{
+    background: #FDF7E3;
+    padding-top: 2rem;
+    padding-left: 1.2rem;
+    padding-bottom: 2rem;
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal !important;
+    color: #005148 !important;
+  }
+  input{
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal !important;
+    color: #005148 !important;
+    width: 140%;
+    margin-top: 2rem;
+    background: #FDF7E3;
+    border: none;
+  }
+  input::placeholder{
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    color: #005148 !important;
+  }
+  .subrayado{
+    position: relative;
+    left: 5%;
+    top: -1rem;
+    background:#005148 !important;
+    height: 4px !important;
+    width: 140%;
+}
+#EnviInfo{
+    background: #FDF7E3;
+    border: 1px solid #005148 !important;
+    box-sizing: border-box !important;
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 1.2rem;
+    color: #005148;
+    margin-top: 1rem;
+    margin-left: .8rem;
+    width: 10rem;
+    height: 3rem;
+    color: #005148 !important;
+    box-shadow: 5px 5px #005148;
+  }
+/* ======= MEDIA QUERY 375px ======== */
+
+@media screen and (min-width: 375px){
+    input{
+        width: 160%;
+      }
+    .subrayado{
+        width: 160%;
+    }
+}
+
+/* ======= MEDIA QUERY 425px ======== */
+
+@media screen and (min-width: 425px){
+    #Tit1{
+        margin-left: .6rem;
+      }
+      table{
+          margin-left: .6rem;
+      }
+    main{
+        padding-right: 1rem;
+        padding-left: 1.4rem;
+      }
+      input{
+        width: 180%;
+      }
+    .subrayado{
+        width: 180%;
+    }
+}
+
+/* ======= MEDIA QUERY 768px ======== */
+
+@media screen and (min-width: 768px){
+    main{
+        padding-right: 1rem;
+        padding-left: 3rem;
+      }
+      input{
+        width: 330%;
+      }
+    .subrayado{
+        width: 330%;
+    }
+}
+/* ======= MEDIA QUERY 1024px ======== */
+
+  @media screen and (min-width: 1024px){
+    hr{
+        position: relative;
+        left: 5%;
+        background:#9FBAAB;
+        height: 4px !important;
+        width: 90%;
+    }
+    .subrayado{
+        position: relative;
+        left: 5%;
+        top: -1rem;
+        background:#005148 !important;
+        height: 4px !important;
+        width: 200%;
+    }
+    table{
+      margin-left: 3.3rem;
+      font-family: 'Lato', sans-serif !important;
+      font-style: normal !important;
+      color: #005148 !important;
+    }
+    h2{
+      font-family: 'Lato', sans-serif !important;
+      font-style: normal !important;
+      font-weight: bold !important;
+      color: #005148 !important;
+    }
+    #Tit1{
+      margin-left: 3.3rem;
+    }
+    main{
+      background: #FDF7E3;
+      margin: 5%;
+      padding-top: 2rem;
+      padding-left: 3rem;
+      padding-bottom: 2rem;
+      font-family: 'Lato', sans-serif !important;
+      font-style: normal !important;
+      color: #005148 !important;
+    }
+
+    input{
+      font-family: 'Lato', sans-serif !important;
+      font-style: normal !important;
+      color: #005148 !important;
+      width: 200%;
+      margin-top: 2rem;
+      background: #FDF7E3;
+      border: none;
+    }
+    input::placeholder{
+      font-family: 'Lato', sans-serif !important;
+      font-style: normal !important;
+      font-weight: bold !important;
+      color: #005148 !important;
+    }
+    #comentarios{
+      margin-left: 15rem;
+    }
+
+    #EnviInfo{
+      background: #FDF7E3;
+      border: 1px solid #005148 !important;
+      box-sizing: border-box !important;
+      font-family: 'Lato', sans-serif !important;
+      font-style: normal !important;
+      font-weight: bold !important;
+      font-size: 1.2rem;
+      color: #005148;
+      margin-top: 1rem;
+      width: 10rem;
+      height: 3rem;
+      color: #005148 !important;
+      box-shadow: 5px 5px #005148;
+    }
+  }
+
+
+  /* Cambios */
+
+  .top-linea{
+    margin-top: 5rem;
+  }

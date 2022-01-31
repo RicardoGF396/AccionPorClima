@@ -1,0 +1,95 @@
+<!-- ====== BOOTSTRAP CSS ======= -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<!-- ====== BOOTSTRAP JS ======= -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- ====== CONTACTO CSS ======= -->
+<link rel="stylesheet" href="contacto.component.css">
+
+
+<!-- ===== HTML INFO CONTACTO ====== -->
+<hr class="top-linea">
+<div class="container arriba">
+    <h2 id="Tit1">Información de contacto</h2>
+    <table class="d-lg-none">
+        <tr>
+            <b>Sede</b><br>
+                <b>Programa de las Naciones Unidas para el Desarrollo</b><br>
+                One United Nations Plaza<br>
+                New York, NY, 10017 Unidas<br>
+                Fax: +1 (212) 906-5364
+        </tr><br>
+        <tr>
+            <b>Medios</b><br>
+                Tel: +1 (212) 906-5382
+                Fax: +1 (212) 906-5364
+                E-mail: UNDP-newsroom@undp.org
+        </tr><br>
+        <tr>
+            <b>Asistencia con el directorio de personal</b><br>
+                Tel: +1 (212) 963-1234
+        </tr><br>
+    </table>
+    <table class="d-none d-lg-block">
+        <tr>
+            <td class="px-3">
+                <b>Sede</b><br>
+                <b>Programa de las Naciones Unidas para el Desarrollo</b><br>
+                One United Nations Plaza<br>
+                New York, NY, 10017 Unidas<br>
+                Fax: +1 (212) 906-5364
+            </td>
+            <td>
+                <b>Medios</b><br>
+                Tel: +1 (212) 906-5382
+                Fax: +1 (212) 906-5364
+                E-mail: UNDP-newsroom@undp.org
+            </td>
+            <td>
+                <b>Asistencia con el directorio de personal</b><br>
+                Tel: +1 (212) 963-1234
+            </td>
+        </tr>
+    </table>
+</div>
+<!-- ===== FIN DE HTML INFO CONTACTO ====== -->
+
+<!-- ===== HTML MENSAJE DIRECTO ====== -->
+<main>
+    <h2>Mensaje directo</h2>
+    Escriba los datos solicitados y en un plazo de 24 horas será atendido.
+    <form action="https://formsubmit.co/kuroganeblack19@gmail.com" method="POST">
+        <td>
+            <input type="hidden" name="_subject" value="You got mail!">
+            <div class="mb-3">
+                <input  type="text" name="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre*" required>
+                <hr class="subrayado">
+              </div>
+              <div class="mb-3">
+                <input type="text" name="apellido" class="form-control" id="exampleInputPassword1" placeholder="Apellido*" required>
+                <hr class="subrayado">
+              </div>
+              <div class="mb-3">
+                <input class="form-control" name="telefono" id="exampleInputPassword1" placeholder="Teléfono*" required>
+                <hr class="subrayado">
+              </div>
+              <div class="mb-3">
+                <input type="email" name="Correo" class="form-control" id="exampleInputPassword1" placeholder="Correo*" required>
+                <hr class="subrayado">
+              </div>
+              <div class="d-lg-none mb-3">
+                <input type="text" name="Comentarios" class="form-control" id="exampleInputPassword1" placeholder="Comentarios*" required>
+                <hr class="subrayado">
+              </div>
+        </td>
+        <td >
+            <div class="d-none d-lg-block mb-3" id="comentarios">
+                <input class="form-control" id="exampleInputPassword1" placeholder="Comentarios*" required>
+                <hr class="subrayado">
+              </div>
+        </td>
+        <button type="submit" id="EnviInfo">ENVIAR</button>
+      </form>
+</main>
+<!-- ===== FIN DE HTML MENSAJE DIRECTO ====== -->

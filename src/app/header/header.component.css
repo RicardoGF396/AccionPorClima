@@ -1,0 +1,187 @@
+/* ======= Clases de Video ======= */
+.video_prc{
+    width: 100%;
+  }
+  
+  .video__principal{
+    width: 100%;
+    margin-top: 2.3rem;
+    position: relative;
+  }
+  
+  .text__video{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+  }
+  
+  .frase_principal{
+    font-size: 2rem;
+    letter-spacing: 7px;
+  }
+  
+  @media screen and (max-width:335px){
+    .frase_principal{
+      font-size: 1.5rem;
+      letter-spacing: 5%;
+    }
+  }
+  
+  @media screen and (min-width: 540px){
+  
+    .text__video{
+      position: absolute;
+      left: 10%;
+      top: 40%;
+    }
+  
+    .frase_principal{
+      font-size: 3rem;
+      letter-spacing: 5%;
+    }
+  
+  }
+  
+  @media screen and (min-width: 767px){
+  
+    .text__video{
+      position: absolute;
+      left: 10%;
+      top: 30%;
+    }
+  
+    .frase_principal{
+      font-size: 4rem;
+      letter-spacing: 5%;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1024px){
+  
+    .text__video{
+      left: 15%;
+      top: 20%;
+    }
+  
+    .frase_principal{
+      font-size: 5rem;
+      letter-spacing: 5%;
+    }
+  
+    .video__principal{
+      margin-top: 0;
+      overflow: hidden;
+    }
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 1440px){
+  
+    .text__video{
+      position: absolute;
+      left: 15%;
+      top: 35%;
+    }
+  
+    .frase_principal{
+      font-size: 5rem;
+      letter-spacing: 5%;
+    }
+  
+    .video__principal{
+      margin-top: 0;
+      overflow: hidden;
+      height: 100vh;
+    }
+  
+  }
+  
+  
+  /* ======= ORGANIZACIONES ======= */
+  
+  .bg-principal{
+    background-color: #005148;
+    height: 125px;
+  }
+  
+  .org__img{
+    width: 80px;
+  }
+  
+  @media screen and (min-width: 767px){
+    .org__img{
+      width: 100px;
+    }
+  
+    .fila{
+      width: 1024px;
+      display: flex;
+      justify-content: space-around;
+    }
+  
+  }
+  
+  
+  
+  /* ====== SALVAR AL PLANETA ====== */
+  
+  .row_sp{
+   max-width: 760px;
+  }
+  
+  
+  .title{
+    color: #005148;
+    width: 150px;
+  }
+  
+  .text_sp{
+    color: #48773E;
+  }
+  
+  .line__light{
+    height: 2px;
+    background-color: #9FBAAB;
+  }
+  
+  .sp__description{
+    width: 300px;
+  }
+  
+  .btn__alt{
+    font-weight: bold;
+    color: white;
+    background-color: #005148;
+    padding: .5rem 2rem;
+  }
+  
+  .btn__container{
+    position: relative;
+  }
+  
+  .btn__alt-shadow{
+    position: absolute;
+    height: 2rem;
+    width: 10rem;
+    background-color: #9FBAAB;
+    z-index: -1;
+    bottom: -.9rem;
+    left: 1rem;
+  }
+  
+  .container__sp{
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width:580px){
+  
+    .img__sp{
+      width: 340px;
+    }
+  
+  }
+  

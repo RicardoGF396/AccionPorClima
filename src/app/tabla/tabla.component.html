@@ -1,0 +1,30 @@
+
+<div class="title_container">
+  <div class="title_content">
+    <h1 class="title">MIEMBROS</h1>
+    <div class="line"></div>
+  </div>
+</div>
+
+<div class="container d-flex justify-content-center ">
+
+  <!-- Plantilla -->
+ <div class="persona_container row d-flex justify-content-center">
+
+    <div class="persona_content col-sm-12 col-md-3" *ngFor="let persona of personas ;let i=index">
+      <div class="img_container">
+        <img src="{{persona.foto}}" alt="">
+      </div>
+
+      <div class="descripcion">
+        <p class="nombre_grid">{{persona.nombre}}</p>
+        <p class="ocupacion">{{persona.ocupacion}}</p>
+        <p class="correo">{{persona.correo}}</p>
+        <p class="correo">{{persona.ciudad}}</p>
+        <p class="correo">{{persona.pais}}</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
